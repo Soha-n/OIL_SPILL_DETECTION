@@ -1,7 +1,43 @@
+# General requirements for ML and DL tasks
+numpy==1.24.2
+pandas==2.2.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.11.2
+scipy==1.10.0
+
+# Deep Learning and NLP
+tensorflow==2.14.0
+torch==2.1.0
+torchvision==0.15.1
+transformers==4.30.0
+huggingface_hub==0.16.0
+tokenizers==0.13.3
+sentencepiece==0.1.97
+
+# Vision Transformers and object detection
+detectron2==0.6
+opencv-python==4.7.0.72
+pillow==9.5.0
+
+# Tools for working with large data
+pyspark==3.4.0
+apache-beam==2.47.0
+hdfs==2.7.1
+
+# Database and Big Data tools
+mysql-connector-python==8.0.31
+pymongo==4.4.0
+psycopg2==2.9.5
+hdbcli==2.14.0
+
+# Tools for Web development and deployment
+flask==2.2.3
 streamlit==1.15.0
-numpy==1.23.5
-tensorflow==2.10.0
-Pillow==9.2.0
-matplotlib==3.5.2
-plotly==5.10.0
-opencv-python==4.6.0.66
+fastapi==0.95.1
+gunicorn==20.1.0
+
+# Miscellaneous tools
+tqdm==4.65.0
+ipykernel==6.18.3
+jupyterlab==3.5.2
