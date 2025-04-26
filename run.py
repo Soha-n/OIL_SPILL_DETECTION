@@ -26,7 +26,7 @@ CLASS_NAMES = [
 ]
 
 # Load the pre-trained model
-model = load_model(r'C:\Users\ssttg\CVDL\oil-spill\unet_model.h5')
+model = load_model(r'./unet_model.h5')
 
 # Streamlit UI setup
 st.title("Oil Spill Detection")
