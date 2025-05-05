@@ -1,9 +1,8 @@
 matplotlib==3.10.1
-numpy==1.26.0
+numpy
 opencv-python==4.11.0.86
 opencv-python-headless==4.11.0.86
 opencv-contrib-python
-libgl1-mesa-glx
 Pillow==10.0.1
 plotly==5.24.1
 streamlit==1.37.1
